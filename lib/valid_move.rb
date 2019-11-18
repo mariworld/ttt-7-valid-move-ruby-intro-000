@@ -9,7 +9,7 @@ end
 
 def valid_move?(position_taken)
     if position_taken == "X" or position_taken == "O"
-        return nil or false
+        return false
     end
     if position_taken.between?(1,9)
         return true
